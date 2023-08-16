@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <table>
+      <% for(const obj of data) { %>
+      <tr>
+        <td><%= obj._id %></td>
+        <td><%= obj.fullname %></td>
+        <td><%= obj.age %></td>
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>
